@@ -41,21 +41,17 @@
             {
                 "name": "with_sftp",
                 "type": "boolean",
-                "ask": {
-                    "en": "Do you need a SFTP access?",
-                    "fr": "Avez-vous besoin d'un accès SFTP ?"
-                },
                 "default": true
             },
             {
                 "name": "password",
                 "type": "password",
-                "optional": true
+                "defaul": ""
             },
             {
                 "name": "is_public",
                 "type": "boolean",
-                "default": true
+                "default": false
             },
             {
                 "name": "phpversion",
@@ -70,10 +66,6 @@
             {
                 "name": "with_mysql",
                 "type": "boolean",
-                "ask": {
-                    "en": "Do you need a MySQL database?",
-                    "fr": "Avez-vous besoin d'une base de données MySQL ?"
-                },
                 "default": false
             }
         ]
