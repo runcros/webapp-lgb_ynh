@@ -1,5 +1,5 @@
 {
-    "name": "Application web 1 ",
+    "name": "Application web",
     "id": "webapp_lgb",
     "packaging_format": 1,
     "description": {
@@ -35,8 +35,8 @@
             {
                 "name": "path",
                 "type": "path",
-                "example": "/eleve1",
-                "default": "/eleve1"
+                "example": "/eleve",
+                "default": "/eleve"
             },
             {
                 "name": "with_sftp",
