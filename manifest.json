@@ -51,8 +51,8 @@
                 "name": "password",
                 "type": "string",
                 "ask": {
-                    "en": "Please choose a password",
-                    "fr": "Merci de choisir un mot de passe"
+                    "en": "Password:",
+                    "fr": "Mot de passe:"
                 },
                 "default": "eleveslgb"
             },
