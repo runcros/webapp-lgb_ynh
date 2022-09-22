@@ -49,8 +49,8 @@
             },
             {
                 "name": "password",
-                "type": "password",
-                "optional": true
+                "type": "string",
+                "default": "eleveslgb"
             },
             {
                 "name": "is_public",
