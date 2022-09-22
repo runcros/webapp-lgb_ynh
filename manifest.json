@@ -35,8 +35,8 @@
             {
                 "name": "path",
                 "type": "path",
-                "example": "/eleve",
-                "default": "/eleve"
+                "example": "/eleve1",
+                "default": "/eleve1"
             },
             {
                 "name": "with_sftp",
