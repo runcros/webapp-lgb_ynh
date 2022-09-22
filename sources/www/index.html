@@ -1,35 +1,31 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Custom Web App</title>
+    <title>Application élève</title>
   </head>
   <body>
-    <h1>It works!</h1>
-    <p>Congratulation, you have just installed your custom web app.</p>
+    <h1>Le site est opérationnel!</h1>
+    <p>Félicitations, vous venez d'installer votre application Web personnalisée.</p>
 
-    <h2>Edit this site</h2>
+    <h2>Editer cette application</h2>
     <p>
-      First way to edit this site is by putting your files in /var/www/__APP__/www using SSH/SCP.
-    </p>
-    <p>
-      Alternatively you can achieve the same thing using SFTP. To do so, you can use a client application such as
+      Alternativement, vous pouvez obtenir la même chose en utilisant SFTP. Pour ce faire, vous pouvez utiliser une application cliente telle que
       <a href="https://filezilla-project.org/download.php?type=client" target="_blank">FileZilla</a>.
-      Here are the SFTP connection details:
+      Voici les détails de la connexion SFTP :
     </p>
     <dl>
-      <dt>Domain</dt>
+      <dt>Domaine</dt>
       <dd>__DOMAIN__</dd>
       <dt>Port</dt>
-      <dd>22 (or the port you defined <a href="https://yunohost.org/security">if you changed the SSH port</a>)</dd>
-      <dt>User</dt>
+      <dd>22</dd>
+      <dt>Utilisateur</dt>
       <dd>__APP__</dd>
-      <dt>Password</dt>
-      <dd><i>the one you set at installation</i></dd>
+      <dt>Mot de passe</dt>
+      <dd><i>(laisser vide)</i></dd>
     </dl>
 
     <hr/>
 
-    <p>As a reward, here is a random cat picture:</p>
     <img src="https://thecatapi.com/api/images/get?format=src&type=gif">
   </body>
 </html>
